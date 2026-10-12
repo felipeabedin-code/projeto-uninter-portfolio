@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfólio pessoal de estudante de Análise e Desenvolvimento de Sistemas."
+    />
+    <title>Portfólio | Felipe Augusto Bedin Camponez</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Cabeçalho fixo com acesso a todas as seções obrigatórias. -->
+    <header class="cabecalho">
+      <nav class="navegacao container" aria-label="Navegação principal">
+        <a class="logo" href="#sobre" aria-label="Ir para o início">FC<span>.</span></a>
+        <button class="menu-botao" type="button" aria-expanded="false" aria-controls="menu">
+          <span class="visually-hidden">Abrir menu</span><span></span><span></span><span></span>
+        </button>
+        <ul class="menu" id="menu">
+          <li><a href="#sobre">Sobre mim</a></li>
+          <li><a href="#formacao">Formação</a></li>
+          <li><a href="#portfolio">Portfólio</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+        <button class="tema-botao" type="button" aria-label="Alternar tema claro e escuro">☼</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="sobre">
+        <div class="container hero-conteudo">
+          <p class="sobretitulo">PORTFÓLIO PESSOAL</p>
+          <h1>Olá, eu sou<br /><em>Felipe Camponez.</em></h1>
+          <p class="hero-texto">
+            Estudante de Análise e Desenvolvimento de Sistemas, com formação em Direito e interesse em construir uma carreira na área de Tecnologia da Informação.
+          </p>
+          <a class="botao" href="#contato">Entre em contato <span>→</span></a>
+        </div>
+        <div class="hero-decoracao" aria-hidden="true">01</div>
+      </section>
+
+      <section class="secao sobre-secao" aria-labelledby="titulo-sobre">
+        <div class="container duas-colunas">
+          <div>
+            <p class="sobretitulo">SOBRE MIM</p>
+            <h2 id="titulo-sobre">Aprendizado constante, com propósito.</h2>
+          </div>
+          <div class="texto-longo">
+            <p>
+              Sou estudante de Análise e Desenvolvimento de Sistemas, com formação em Direito e interesse em construir minha carreira na área de Tecnologia da Informação. Tenho projetos desenvolvidos em HTML, CSS e JavaScript disponíveis no GitHub e venho ampliando minhas competências por meio da graduação.
+            </p>
+            <p>
+              Busco oportunidades profissionais na área de tecnologia nas quais eu possa aplicar meus conhecimentos, contribuir para soluções eficientes e agregar valor à equipe e à empresa. Prezo por organização, responsabilidade, resolução de problemas, trabalho em equipe e novos desafios.
+            </p>
+            <p>
+              Tenho especial interesse em Inteligência Artificial e nas novas tecnologias que vêm transformando o mercado. Procuro acompanhar essa evolução e explorar novas possibilidades dentro da área de tecnologia.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="secao fundo-suave" id="formacao" aria-labelledby="titulo-formacao">
+        <div class="container">
+          <p class="sobretitulo">FORMAÇÃO</p>
+          <h2 id="titulo-formacao">Minha trajetória acadêmica</h2>
+          <div class="linha-tempo">
+            <article class="item-formacao">
+              <p class="periodo">EM ANDAMENTO · CONCLUSÃO PREVISTA: 06/2027</p>
+              <h3>Análise e Desenvolvimento de Sistemas</h3>
+              <p>UNINTER</p>
+            </article>
+            <article class="item-formacao">
+              <p class="periodo">CONCLUÍDO · 2021</p>
+              <h3>Direito</h3>
+              <p>FADAP</p>
+            </article>
+            <article class="item-formacao">
+              <p class="periodo">CONHECIMENTOS</p>
+              <h3>Desenvolvimento web</h3>
+              <p>HTML5, CSS3, JavaScript, Git e GitHub</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="secao" id="portfolio" aria-labelledby="titulo-portfolio">
+        <div class="container">
+          <p class="sobretitulo">PORTFÓLIO</p>
+          <div class="titulo-com-acao">
+            <h2 id="titulo-portfolio">Projetos em desenvolvimento</h2>
+            <a class="link-seta" href="https://github.com/felipeabedin-code" target="_blank" rel="noopener noreferrer">Ver GitHub <span>↗</span></a>
+          </div>
+          <div class="grade-projetos">
+            <article class="cartao-projeto destaque">
+              <span class="numero-projeto">01</span>
+              <div>
+                <p class="tecnologias">HTML · CSS · JAVASCRIPT</p>
+                <h3>Projetos web</h3>
+                <p>Projetos desenvolvidos durante os estudos, aplicando estruturação semântica, estilização responsiva e interações em JavaScript.</p>
+                <a href="https://github.com/felipeabedin-code?tab=repositories" target="_blank" rel="noopener noreferrer">Ver repositórios <span>→</span></a>
+              </div>
+            </article>
+            <article class="cartao-projeto">
+              <span class="numero-projeto">02</span>
+              <div>
+                <p class="tecnologias">HTML · CSS</p>
+                <h3>Estudos em tecnologia</h3>
+                <p>Repositórios que registram minha evolução em desenvolvimento web e a construção de novas competências na graduação.</p>
+                <a href="https://github.com/felipeabedin-code" target="_blank" rel="noopener noreferrer">Conhecer o perfil <span>→</span></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="secao contato" id="contato" aria-labelledby="titulo-contato">
+        <div class="container contato-grade">
+          <div>
+            <p class="sobretitulo">CONTATO</p>
+            <h2 id="titulo-contato">Vamos conversar?</h2>
+            <p>Preencha o formulário ao lado. Retornarei assim que possível.</p>
+            <p class="email-exemplo">felipeabedin@yahoo.com</p>
+          </div>
+          <!-- JavaScript valida os campos e simula o envio, sem mandar dados a um servidor. -->
+          <form id="formulario-contato" novalidate>
+            <div class="campo">
+              <label for="nome">Nome</label>
+              <input id="nome" name="nome" type="text" autocomplete="name" />
+              <small class="erro" id="erro-nome"></small>
+            </div>
+            <div class="campo">
+              <label for="email">E-mail</label>
+              <input id="email" name="email" type="email" autocomplete="email" />
+              <small class="erro" id="erro-email"></small>
+            </div>
+            <div class="campo">
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" name="mensagem" rows="5"></textarea>
+              <small class="erro" id="erro-mensagem"></small>
+            </div>
+            <button class="botao botao-claro" type="submit">Enviar mensagem <span>→</span></button>
+            <p class="mensagem-sucesso" id="mensagem-sucesso" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer><p>© <span id="ano"></span> Felipe Augusto Bedin Camponez. Portfólio pessoal.</p></footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
